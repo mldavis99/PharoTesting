@@ -25,3 +25,13 @@ Counter >> count: anInteger [
 	count := anInteger.
 	
 ]
+
+{ #category : #operation }
+Counter >> decrement [
+	count := count - 1.
+]
+
+{ #category : #operation }
+Counter >> increment [
+	count := count + 1
+]
