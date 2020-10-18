@@ -28,6 +28,7 @@ Counter >> count: anInteger [
 
 { #category : #operation }
 Counter >> decrement [
+	"decrease the value of count by 1"
 	count := count - 1.
 ]
 
