@@ -34,6 +34,7 @@ Counter >> decrement [
 
 { #category : #operation }
 Counter >> increment [
+	"increment count by 1"
 	count := count + 1
 ]
 
